@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "location"
     t.integer "costume_inventory"
     t.boolean "still_in_business"
-    t.integer "employee_count"
+    t.integer "employees_count"
     t.datetime "opening_time"
     t.datetime "closing_time"
   end
